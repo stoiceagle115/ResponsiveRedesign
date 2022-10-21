@@ -1,0 +1,404 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="">
+    <meta name="author" content="">
+    <meta name="generator" content="Hugo 0.84.0">
+    <title>Redesign: The Galileo Project</title>
+
+    <link rel="canonical" href="https://getbootstrap.com/docs/5.0/examples/sidebars/">
+
+
+
+    <!-- Bootstrap core CSS -->
+    <link href="bootstrap.css" rel="stylesheet">
+
+    <style>
+        .bd-placeholder-img {
+            font-size: 1.125rem;
+            text-anchor: middle;
+            -webkit-user-select: none;
+            -moz-user-select: none;
+            user-select: none;
+        }
+
+        @media (min-width: 768px) {
+            .bd-placeholder-img-lg {
+                font-size: 3.5rem;
+            }
+        }
+    </style>
+
+    <link href="redesign.css" rel="stylesheet">
+</head>
+
+<main>
+    <div class="d-flex flex-column flex-shrink-0 p-3 bg-light fixed-top d-none d-lg-block"
+        style="width: 18vw; height: 100vh">
+        <a href="#" class="d-flex align-items-center mb-3 mb-md-0 me-md-auto link-dark text-decoration-none">
+            <!-- <svg class="bi me-2" width="40" height="32">
+                                        <use xlink:href="bootstrap-icons.svg#heart-fill" />
+                                    </svg> -->
+            <img class="bi me-2" src="photos/VectorMoon Symbol.png" width="50" height="50">
+            <span class="fs-4">The Galileo Project</span>
+        </a>
+        <hr>
+        <ul class="nav nav-pills flex-column mb-auto">
+            <li class="nav-item">
+                <a href="#" class="nav-link active" aria-current="page">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor"
+                        class="bi bi-globe" viewBox="0 0 16 16">
+                        <path
+                            d="M0 8a8 8 0 1 1 16 0A8 8 0 0 1 0 8zm7.5-6.923c-.67.204-1.335.82-1.887 1.855A7.97 7.97 0 0 0 5.145 4H7.5V1.077zM4.09 4a9.267 9.267 0 0 1 .64-1.539 6.7 6.7 0 0 1 .597-.933A7.025 7.025 0 0 0 2.255 4H4.09zm-.582 3.5c.03-.877.138-1.718.312-2.5H1.674a6.958 6.958 0 0 0-.656 2.5h2.49zM4.847 5a12.5 12.5 0 0 0-.338 2.5H7.5V5H4.847zM8.5 5v2.5h2.99a12.495 12.495 0 0 0-.337-2.5H8.5zM4.51 8.5a12.5 12.5 0 0 0 .337 2.5H7.5V8.5H4.51zm3.99 0V11h2.653c.187-.765.306-1.608.338-2.5H8.5zM5.145 12c.138.386.295.744.468 1.068.552 1.035 1.218 1.65 1.887 1.855V12H5.145zm.182 2.472a6.696 6.696 0 0 1-.597-.933A9.268 9.268 0 0 1 4.09 12H2.255a7.024 7.024 0 0 0 3.072 2.472zM3.82 11a13.652 13.652 0 0 1-.312-2.5h-2.49c.062.89.291 1.733.656 2.5H3.82zm6.853 3.472A7.024 7.024 0 0 0 13.745 12H11.91a9.27 9.27 0 0 1-.64 1.539 6.688 6.688 0 0 1-.597.933zM8.5 12v2.923c.67-.204 1.335-.82 1.887-1.855.173-.324.33-.682.468-1.068H8.5zm3.68-1h2.146c.365-.767.594-1.61.656-2.5h-2.49a13.65 13.65 0 0 1-.312 2.5zm2.802-3.5a6.959 6.959 0 0 0-.656-2.5H12.18c.174.782.282 1.623.312 2.5h2.49zM11.27 2.461c.247.464.462.98.64 1.539h1.835a7.024 7.024 0 0 0-3.072-2.472c.218.284.418.598.597.933zM10.855 4a7.966 7.966 0 0 0-.468-1.068C9.835 1.897 9.17 1.282 8.5 1.077V4h2.355z" />
+                    </svg>
+                    Galileo
+                </a>
+            </li>
+            <li>
+                <a href="#" class="nav-link link-dark">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor"
+                        class="bi bi-journal-richtext" viewBox="0 0 16 16">
+                        <path
+                            d="M7.5 3.75a.75.75 0 1 1-1.5 0 .75.75 0 0 1 1.5 0zm-.861 1.542 1.33.886 1.854-1.855a.25.25 0 0 1 .289-.047L11 4.75V7a.5.5 0 0 1-.5.5h-5A.5.5 0 0 1 5 7v-.5s1.54-1.274 1.639-1.208zM5 9.5a.5.5 0 0 1 .5-.5h5a.5.5 0 0 1 0 1h-5a.5.5 0 0 1-.5-.5zm0 2a.5.5 0 0 1 .5-.5h2a.5.5 0 0 1 0 1h-2a.5.5 0 0 1-.5-.5z" />
+                        <path
+                            d="M3 0h10a2 2 0 0 1 2 2v12a2 2 0 0 1-2 2H3a2 2 0 0 1-2-2v-1h1v1a1 1 0 0 0 1 1h10a1 1 0 0 0 1-1V2a1 1 0 0 0-1-1H3a1 1 0 0 0-1 1v1H1V2a2 2 0 0 1 2-2z" />
+                        <path
+                            d="M1 5v-.5a.5.5 0 0 1 1 0V5h.5a.5.5 0 0 1 0 1h-2a.5.5 0 0 1 0-1H1zm0 3v-.5a.5.5 0 0 1 1 0V8h.5a.5.5 0 0 1 0 1h-2a.5.5 0 0 1 0-1H1zm0 3v-.5a.5.5 0 0 1 1 0v.5h.5a.5.5 0 0 1 0 1h-2a.5.5 0 0 1 0-1H1z" />
+                    </svg>
+                    Biography
+                </a>
+            </li>
+            <li>
+                <a href="#" class="nav-link link-dark">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor"
+                        class="bi bi-hourglass" viewBox="0 0 16 16">
+                        <path
+                            d="M2 1.5a.5.5 0 0 1 .5-.5h11a.5.5 0 0 1 0 1h-1v1a4.5 4.5 0 0 1-2.557 4.06c-.29.139-.443.377-.443.59v.7c0 .213.154.451.443.59A4.5 4.5 0 0 1 12.5 13v1h1a.5.5 0 0 1 0 1h-11a.5.5 0 1 1 0-1h1v-1a4.5 4.5 0 0 1 2.557-4.06c.29-.139.443-.377.443-.59v-.7c0-.213-.154-.451-.443-.59A4.5 4.5 0 0 1 3.5 3V2h-1a.5.5 0 0 1-.5-.5zm2.5.5v1a3.5 3.5 0 0 0 1.989 3.158c.533.256 1.011.791 1.011 1.491v.702c0 .7-.478 1.235-1.011 1.491A3.5 3.5 0 0 0 4.5 13v1h7v-1a3.5 3.5 0 0 0-1.989-3.158C8.978 9.586 8.5 9.052 8.5 8.351v-.702c0-.7.478-1.235 1.011-1.491A3.5 3.5 0 0 0 11.5 3V2h-7z" />
+                    </svg>
+                    Chronology
+                </a>
+            </li>
+            <li>
+                <a href="#" class="nav-link link-dark">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor"
+                        class="bi bi-house-door" viewBox="0 0 16 16">
+                        <path
+                            d="M8.354 1.146a.5.5 0 0 0-.708 0l-6 6A.5.5 0 0 0 1.5 7.5v7a.5.5 0 0 0 .5.5h4.5a.5.5 0 0 0 .5-.5v-4h2v4a.5.5 0 0 0 .5.5H14a.5.5 0 0 0 .5-.5v-7a.5.5 0 0 0-.146-.354L13 5.793V2.5a.5.5 0 0 0-.5-.5h-1a.5.5 0 0 0-.5.5v1.293L8.354 1.146zM2.5 14V7.707l5.5-5.5 5.5 5.5V14H10v-4a.5.5 0 0 0-.5-.5h-3a.5.5 0 0 0-.5.5v4H2.5z" />
+                    </svg>
+                    Family
+                </a>
+            </li>
+            <li>
+                <a href="#" class="nav-link link-dark">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor"
+                        class="bi bi-file-person" viewBox="0 0 16 16">
+                        <path
+                            d="M12 1a1 1 0 0 1 1 1v10.755S12 11 8 11s-5 1.755-5 1.755V2a1 1 0 0 1 1-1h8zM4 0a2 2 0 0 0-2 2v12a2 2 0 0 0 2 2h8a2 2 0 0 0 2-2V2a2 2 0 0 0-2-2H4z" />
+                        <path d="M8 10a3 3 0 1 0 0-6 3 3 0 0 0 0 6z" />
+                    </svg>
+                    Portraits
+                </a>
+            </li>
+            <li>
+                <a href="#" class="nav-link link-dark">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor"
+                        class="bi bi-bank" viewBox="0 0 16 16">
+                        <path
+                            d="m8 0 6.61 3h.89a.5.5 0 0 1 .5.5v2a.5.5 0 0 1-.5.5H15v7a.5.5 0 0 1 .485.38l.5 2a.498.498 0 0 1-.485.62H.5a.498.498 0 0 1-.485-.62l.5-2A.501.501 0 0 1 1 13V6H.5a.5.5 0 0 1-.5-.5v-2A.5.5 0 0 1 .5 3h.89L8 0ZM3.777 3h8.447L8 1 3.777 3ZM2 6v7h1V6H2Zm2 0v7h2.5V6H4Zm3.5 0v7h1V6h-1Zm2 0v7H12V6H9.5ZM13 6v7h1V6h-1Zm2-1V4H1v1h14Zm-.39 9H1.39l-.25 1h13.72l-.25-1Z" />
+                    </svg>
+                    Science
+                </a>
+            </li>
+            <li>
+                <a href="#" class="nav-link link-dark">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor"
+                        class="bi bi-bookmark-plus" viewBox="0 0 16 16">
+                        <path
+                            d="M2 2a2 2 0 0 1 2-2h8a2 2 0 0 1 2 2v13.5a.5.5 0 0 1-.777.416L8 13.101l-5.223 2.815A.5.5 0 0 1 2 15.5V2zm2-1a1 1 0 0 0-1 1v12.566l4.723-2.482a.5.5 0 0 1 .554 0L13 14.566V2a1 1 0 0 0-1-1H4z" />
+                        <path
+                            d="M8 4a.5.5 0 0 1 .5.5V6H10a.5.5 0 0 1 0 1H8.5v1.5a.5.5 0 0 1-1 0V7H6a.5.5 0 0 1 0-1h1.5V4.5A.5.5 0 0 1 8 4z" />
+                    </svg>
+                    Christianity
+                </a>
+            </li>
+            <li>
+                <a href="#" class="nav-link link-dark">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor"
+                        class="bi bi-book" viewBox="0 0 16 16">
+                        <path
+                            d="M1 2.828c.885-.37 2.154-.769 3.388-.893 1.33-.134 2.458.063 3.112.752v9.746c-.935-.53-2.12-.603-3.213-.493-1.18.12-2.37.461-3.287.811V2.828zm7.5-.141c.654-.689 1.782-.886 3.112-.752 1.234.124 2.503.523 3.388.893v9.923c-.918-.35-2.107-.692-3.287-.81-1.094-.111-2.278-.039-3.213.492V2.687zM8 1.783C7.015.936 5.587.81 4.287.94c-1.514.153-3.042.672-3.994 1.105A.5.5 0 0 0 0 2.5v11a.5.5 0 0 0 .707.455c.882-.4 2.303-.881 3.68-1.02 1.409-.142 2.59.087 3.223.877a.5.5 0 0 0 .78 0c.633-.79 1.814-1.019 3.222-.877 1.378.139 2.8.62 3.681 1.02A.5.5 0 0 0 16 13.5v-11a.5.5 0 0 0-.293-.455c-.952-.433-2.48-.952-3.994-1.105C10.413.809 8.985.936 8 1.783z" />
+                    </svg>
+                    Library
+                </a>
+            </li>
+        </ul>
+        <hr>
+        <div class="dropdown ">
+            <a href="#" class="d-flex align-items-center link-dark text-decoration-none dropdown-toggle"
+                id="dropdownUser2" data-bs-toggle="dropdown" aria-expanded="false">
+                <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" fill="currentColor"
+                    class="bi bi-gear-wide" viewBox="0 0 16 16">
+                    <path
+                        d="M8.932.727c-.243-.97-1.62-.97-1.864 0l-.071.286a.96.96 0 0 1-1.622.434l-.205-.211c-.695-.719-1.888-.03-1.613.931l.08.284a.96.96 0 0 1-1.186 1.187l-.284-.081c-.96-.275-1.65.918-.931 1.613l.211.205a.96.96 0 0 1-.434 1.622l-.286.071c-.97.243-.97 1.62 0 1.864l.286.071a.96.96 0 0 1 .434 1.622l-.211.205c-.719.695-.03 1.888.931 1.613l.284-.08a.96.96 0 0 1 1.187 1.187l-.081.283c-.275.96.918 1.65 1.613.931l.205-.211a.96.96 0 0 1 1.622.434l.071.286c.243.97 1.62.97 1.864 0l.071-.286a.96.96 0 0 1 1.622-.434l.205.211c.695.719 1.888.03 1.613-.931l-.08-.284a.96.96 0 0 1 1.187-1.187l.283.081c.96.275 1.65-.918.931-1.613l-.211-.205a.96.96 0 0 1 .434-1.622l.286-.071c.97-.243.97-1.62 0-1.864l-.286-.071a.96.96 0 0 1-.434-1.622l.211-.205c.719-.695.03-1.888-.931-1.613l-.284.08a.96.96 0 0 1-1.187-1.186l.081-.284c.275-.96-.918-1.65-1.613-.931l-.205.211a.96.96 0 0 1-1.622-.434L8.932.727zM8 12.997a4.998 4.998 0 1 1 0-9.995 4.998 4.998 0 0 1 0 9.996z" />
+                </svg>
+                <p style="color: cornsilk;">-</p>
+                <strong> Settings</strong>
+                <ul class="dropdown-menu dropdown-menu-dark text-small shadow" aria-labelledby="dropdownUser1">
+                    <li><a class="dropdown-item" href="#">Language</a></li>
+                    <li><a class="dropdown-item" href="#">Other Features</a></li>
+                    <li>
+                        <hr class="dropdown-divider">
+                    </li>
+                    <li><a class="dropdown-item" href="#">Help</a></li>
+                </ul>
+            </a>
+        </div>
+    </div>
+
+    <div class="collapse navbar-collapse bg-light d-lg-none fixed-top" width="vw100" id="navbarsExample01">
+        <div class="container" style="margin-top: 70px;">
+            <form>
+                <input class="form-control" type="text" placeholder="Search" aria-label="Search">
+            </form>
+            <p class="text-center"><a href="#">Galileo</a> | <a href="#">Biography</a> |
+                <a href="#">Chronology</a> | <a href="#">Family</a> <br>
+                <a href="#">Portraits</a> |
+                <a href="#">Science</a> | <a href="#">Christianity</a> | <a href="#">Library</a>
+
+            </p>
+
+        </div>
+    </div>
+
+    <nav class="navbar navbar-light bg-transparent d-block d-lg-none fixed-top" aria-label="First navbar example">
+        <div class="container-fluid">
+            <a class="navbar-brand text-dark text-center" href="#"><img class="bi me-2"
+                    src="photos/VectorMoon Symbol.png" width="45" height="45">
+                <!-- <img src="Photos/GalileoLogo.jpeg" width="500vw">--></a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarsExample01"
+                aria-controls="navbarsExample01" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+        </div>
+    </nav>
+</main>
+
+<!-- style="background-color: rgba(92, 110, 192, 0.192); -->
+
+<body>
+
+    <div class="container-fluid">
+        <div class="row flex-nowrap">
+            <div class="col-auto col-md-3 col-xl-2 px-sm-2 px-0 bg-dark d-none d-lg-block" style="width: 18vw">
+
+            </div>
+            <div class="col py-3">
+
+                <nav class="navbar navbar-expand navbar-dark bg-transparent d-none d-lg-block fixed-top"
+                    style="margin-left: 80vw;" aria-label="Second navbar example">
+                    <div class="container-fluid">
+
+                        <div class="collapse navbar-collapse" id="navbarsExample02">
+                            <ul class="navbar-nav me-auto"></ul>
+                            </ul>
+                            <form>
+                                <input class="form-control" type="text" placeholder="Search" aria-label="Search">
+                            </form>
+                        </div>
+                    </div>
+                </nav>
+
+                <!-- <img src="Photos/GalileoLogo.jpeg" class="d-none d-lg-block"> -->
+
+                <div class="container marketing">
+
+                    <div class="container-fluid text-center">
+                        <img src="Photos/GalileoLogo.jpeg" class="d-block d-md-none text-center" width="220vw"
+                            style="margin-left: 10vw;">
+                    </div>
+
+                    <div class="container-fluid text-center">
+                        <img src="Photos/GalileoLogo.jpeg" class="d-none d-md-block d-lg-none text-center"
+                            style="margin-left: 2vw;">
+                    </div>
+
+                    <hr class="featurette-divider">
+
+                    <div class="row featurette">
+                        <div class="col-md-7" style="margin-bottom: 2vh;">
+                            <h2 class="featurette-heading">Introduction to Galileo Galilei<h6
+                                    class="featurette-heading text-muted"> Astronomer, Physicist and Engineer</h6>
+                            </h2>
+                            <p class="lead">Galileo was born in Pisa, Italy on February 15, 1564. His father, Vincenzo
+                                Galilei, was a musician. Galileo's mother was Giulia degli Ammannati. Galileo was the
+                                first of six (though some people believe seven) children. His family belonged to the
+                                nobility but was not rich. In the early 1570's, he and his family moved to Florence.</p>
+                            <button type="button" class="btn btn-outline-primary">Read more</button>
+                        </div>
+                        <div class="col-md-5">
+                            <img class="featurette-image img-fluid mx-auto" src="Photos/GalileoYoungPortrait.jpeg"
+                                width="300px" height="300px">
+                        </div>
+                    </div>
+
+                    <hr class="featurette-divider">
+
+                    <div class="row featurette">
+                        <div class="col-md-7 order-md-2" style="margin-bottom: 2vh;">
+                            <h2 class="featurette-heading">Early Education</h2>
+                            <p class="lead">In 1581, Galileo began studying at the University of Pisa, where his father
+                                hoped he would study medicine. While at the University of Pisa,
+                                Galileo began his study of the pendulum while, according to legend, he watched a
+                                suspended lamp swing back and forth in the cathedral of Pisa. This would mark the start
+                                of his lengthy career into mathematics and physics.</p>
+                            <button type="button" class="btn btn-outline-primary">Read more</button>
+                        </div>
+                        <div class="col-md-5 order-md-1" style="margin-bottom: 2vh;">
+                            <img class="featurette-image img-fluid mx-auto" src="Photos/UniversityPisa.jpeg"
+                                width="500px" height="500px">
+                        </div>
+                    </div>
+                    Explore Other Important Institutions in Galileo's Life:
+                    <div class="row">
+                        <div class="col-sm-6">
+                            <div class="card">
+                                <div class="card-body">
+                                    <h5 class="card-title">Collegio Romano</h5>
+                                    <p class="card-text">Founded by the Jesuit order, the Collegio Romano attracted
+                                        the best scientists in the Catholic faith, and Jesuit educators as far away as
+                                        China
+                                        turned to them for their judgment on scientific matters.</p>
+                                    <button type="button" class="btn btn-outline-secondary btn-sm">Go here</button>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-sm-6">
+                            <div class="card">
+                                <div class="card-body">
+                                    <h5 class="card-title">Accademia dei Lincei</h5>
+                                    <p class="card-text">In 1611, Galileo was inducted into this academy. Their stated
+                                        goal
+                                        was "not only to acquire
+                                        knowledge of things and wisdom, and living together justly and piously, but also
+                                        peacefully to display them to men, orally and in writing, without any harm."</p>
+                                    <button type="button" class="btn btn-outline-secondary btn-sm">Go here</button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <hr class="featurette-divider">
+
+                    <h2 class="featurette-heading">Important Places
+                    </h2>
+
+
+                    <div id="carouselExampleCaptions" class="carousel slide" data-bs-ride="false">
+                        <div class="carousel-indicators">
+                            <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0"
+                                class="active" aria-current="true" aria-label="Slide 1"></button>
+                            <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1"
+                                aria-label="Slide 2"></button>
+                            <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2"
+                                aria-label="Slide 3"></button>
+                        </div>
+                        <div class="carousel-inner">
+                            <div class="carousel-item active text-center">
+                                <figure class="figure text-center">
+                                    <img src="photos/Florence.webp" class="d-none d-md-block w-100" height="500"
+                                        width="450">
+                                    <img src="photos/Florence.webp" class="d-block d-md-none w-100" height="250vw"
+                                        width="100vh">
+                                    <div class="carousel-caption d-none d-md-block">
+                                        <h5>Florence</h5>
+                                    </div>
+                                </figure>
+                            </div>
+                            <div class="carousel-item text-center">
+                                <figure class="figure text-center">
+                                    <img src="photos/PaduaF.webp" class="d-none d-md-block w-100" height="500"
+                                        width="450">
+                                    <img src="photos/PaduaF.webp" class="d-block d-md-none w-100 w-100" height="250vw"
+                                        width="100vh">
+                                    <div class="carousel-caption d-none d-md-block">
+                                        <h5>Padua</h5>
+                                    </div>
+                                </figure>
+                            </div>
+                            <div class="carousel-item text-center">
+                                <figure class="figure text-center">
+                                    <img src="photos/VeniceFinal.jpeg" class="d-none d-md-block w-100" height="500"
+                                        width="450">
+                                    <img src="photos/VeniceFinal.jpeg" class="d-block d-md-none w-100 w-100"
+                                        height="250vw" width="100vh">
+                                    <div class="carousel-caption d-none d-md-block">
+                                        <h5>Venice</h5>
+                                    </div>
+                                </figure>
+                            </div>
+                        </div>
+                        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions"
+                            data-bs-slide="prev">
+                            <span class="carousel-control-prev-icon text-dark" aria-hidden="true"></span>
+                            <span class="visually-hidden">Previous</span>
+                        </button>
+                        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions"
+                            data-bs-slide="next">
+                            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                            <span class="visually-hidden">Next</span>
+                        </button>
+                    </div>
+
+
+
+                    <hr class="featurette-divider">
+
+                </div>
+
+                <footer class="text-muted">
+                    <div class="container">
+                        <p class="float-right">
+                            <a href="#">Back to top</a>
+                        </p>
+                        <p class="text-center"><a href="#">Home</a> | <a href="#">About</a> |
+                            <a href="#">Copyright</a> | <a href="#">Site Map</a>.
+                        </p>
+                        <p> &copy; 2022 Al Van Heden, through Rice University; Site designed by {insert name}</p>
+                    </div>
+                </footer>
+
+            </div>
+
+            <!-- Bootstrap core JavaScript
+          ================================================== -->
+            <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js"
+                integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN"
+                crossorigin="anonymous"></script>
+            <script>window.jQuery || document.write('<script src="vendor/jquery-slim.min.js"><\/script>')</script>
+            <script src="vendor/popper.min.js"></script>
+            <script src="dist/js/bootstrap.min.js"></script>
+            <script src="vendor/holder.min.js"></script>
+            <!-- Holder.addTheme('thumb', {
+            bg: '#55595c',
+            fg: '#eceeef',
+            text: 'Thumbnail'
+        });
+    </script> -->
+
+            <!-- <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.6/dist/umd/popper.min.js"
+                integrity="sha384-oBqDVmMz9ATKxIep9tiCxS/Z9fNfEXiDAYTujMAeBAsjFuCZSmKbSSUnQlmh/jp3"
+                crossorigin="anonymous"></script>
+            <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.min.js"
+                integrity="sha384-IDwe1+LCz02ROU9k972gdyvl+AESN10+x7tBKgc9I5HFtuNz0wWnPclzo6p9vxnk"
+                crossorigin="anonymous"></script> -->
+
+
+            <script src="js5/bootstrap.bundle.min.js"></script>
+
+            <script src="sidebars.js"></script>
+</body>
+
+</html>
