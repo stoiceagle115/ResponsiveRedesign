@@ -1,0 +1,409 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<!--Parts of this code (sepcifically the nav bar and observations section) is based on Jeff Huang's Bootstrap Presentation-->
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, inital scale=1, shrink-to-fit=no">
+    <meta name="description" content="">
+    <meta name="author" content="">
+    <!-- <link rel="icon" href="../../../../favicon.ico"> -->
+
+    <link rel="stylesheet" href="bootstrap.css">
+    <link rel="stylesheet" href="style.css">
+
+    <title>Responsive Redesign</title>
+</head>
+
+<body>
+
+    <header>
+        <div class="collapse bg-dark fixed-top" id="navbarHeader">
+            <div class="container" style="margin-top: 5vh;">
+                <div class="row">
+                    <div class="col-sm-8 col-md-7 py-4">
+                        <h4 class="text-white">About</h4>
+                        <p class="text-muted">[Personal Background Information; will be added for Portfolio]</p>
+                    </div>
+                    <div class="col-sm-4 offset-md-1 py-4">
+                        <h4 class="text-white">Contents</h4>
+                        <ul class="list-unstyled">
+                            <li><a href="#process" class="text-white">Process</a></li>
+                            <li><a href="#original" class="text-white">Original</a></li>
+                            <li><a href="#prototyping" class="text-white">Prototypes</a></li>
+                            <li><a href="#redesign" class="text-white">Redesign</a></li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- box shadow to give it weight; background transparent-->
+        <!--other commands: navbar-default-->
+        <div class="navbar navbar-dark bg-transparent box-shadow fixed-top">
+            <div class="container d-flex justify-content-between">
+                <a href="#" class="navbar-brand d-flex align-items-center">
+                    <!-- <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none"
+                        stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"
+                        class="mr-2">
+                        <path d="M23 19a2 2 0 0 1-2 2H3a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h4l2-3h6l2 3h4a2 2 0 0 1 2 2z">
+                        </path>
+                        <circle cx="12" cy="13" r="4"></circle>
+                    </svg> -->
+                    <!-- <strong>Responsive Redesign</strong> -->
+                </a>
+                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarHeader"
+                    aria-controls="navbarHeader" aria-expanded="false" aria-label="Toggle navigation">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="32" height="32" fill="white" class="bi bi-list"
+                        viewBox="0 0 16 16">
+                        <path fill-rule="evenodd"
+                            d="M2.5 12a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5zm0-4a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5zm0-4a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5z" />
+                    </svg>
+                </button>
+            </div>
+        </div>
+    </header>
+
+    <main role="main">
+
+        <div class="d-flex flex-column backdrop justify-content-center align-items center">
+            <!-- <img src="" alt="description"-->
+            <!-- <h1 class="text-light">-->
+            <!-- btn = button-->
+            <h1 class="text-light display-1">Responsive Redesign</h1>
+            <h2 class="text-light h6">Examining what makes a website function well</h2>
+        </div>
+
+        <!-- <section class="jumbotron text-center backdrop" style="height:110vh">
+            <div class="container text">
+                <h1 class="jumbotron-heading">Album example</h1>
+                <p class="lead text-muted">Something short and leading about the collection below—its contents, the
+                    creator, etc. Make it short and sweet, but not too short so folks don't simply skip over it
+                    entirely.</p>
+                <p>
+                    <a href="#" class="btn btn-primary my-2">Main call to action</a>
+                    <a href="#" class="btn btn-secondary my-2">Secondary action</a>
+                </p>
+            </div>
+        </section> -->
+
+        <div id="process" class="album py-5 bg-dark">
+            <h3 class="text-center text-light">Process</h3>
+            <p class="text-light text-center">This project was made as a way to learn about designing and prototyping
+                websites.
+                <br>
+                The redesign process was
+                fairly straightforward and consists of three major steps:
+            </p>
+            <div class="container bg-dark">
+                <ol class="list-group list-group-numbered">
+                    <li class="list-group-item d-flex justify-content-between align-items-start">
+                        <div class="ms-2 me-auto">
+                            <div class="fw-bold">Original Site</div>
+                            A site that is suitable for a redesign is found. Afterwards, the issues of the site are
+                            identified based on four crietria: Usability,
+                            Memorability, Learnability and Acessibility.
+                        </div>
+                    </li>
+                    <li class="list-group-item d-flex justify-content-between align-items-start">
+                        <div class="ms-2 me-auto">
+                            <div class="fw-bold">Prototyping</div>
+                            <ul>
+                                <li>Lo-Fidelity Wireframing: using Balsamiq, quick prototypes are made in order to
+                                    brainstorm possible layouts and solutions to the issues found in Part 1.</li>
+                                <li>Visual Design Guide: using Figma, all elements necessary to make the redesign
+                                    webpage are created (buttons, text style, headings, etc.)</li>
+                                <li>Hi-Fidelity Prototypes: again with Figma, prototypes that closely resemble the final
+                                    product are
+                                    made.</li>
+                            </ul>
+                            For all of the prototypes, a focus is given to usability. Additionally, multiple layouts are
+                            made for
+                            desktop, mobile and tablets.
+                        </div>
+                    </li>
+                    <li class="list-group-item d-flex justify-content-between align-items-start">
+                        <div class="ms-2 me-auto">
+                            <div class="fw-bold">Redesign</div>
+                            An actual, interactible website is built based on the Hi-Fidelity Prototypes. For the scope
+                            of this
+                            project, the website is limited to one page, enough to get an idea of how the site would
+                            function.
+                        </div>
+                    </li>
+                </ol>
+            </div>
+        </div>
+
+        <div id="original"> </div>
+        <div class="album py-5 bg-light">
+            <h3 class="text-center">The Original Site: Rice University's Galileo Project</h3>
+            <div class="container">
+                <!-- <div class="embed-responsive embed-responsive-16by9 text-center">
+                    <p class="text-left">
+                        Interact with the site ⤵
+                    </p>
+                    <iframe class="lsite embed-responsive-item" src="http://galileo.rice.edu/index.html"
+                        allowfullscreen></iframe>
+                </div> -->
+                <img src="Photos/GalileoWebsite.png" class="figure-img img-fluid rounded"
+                    style="border-color: rgb(58, 56, 56);">
+                <p>
+                    Due to its age and the barebones structure, I felt this website would be the perfect candidate for a
+                    redesign.
+                    The website seems to have not been updated for at least a decade (the last reference of a date is
+                    around
+                    2005), and it is only really comprised of links and text; with the occasional picture, table or
+                    slideshow.
+                </p>
+                <a type="button" class="btn btn-outline-secondary" href="http://galileo.rice.edu/" role="button">Visit
+                    the Site</a>
+            </div>
+        </div>
+
+        <div class="container">
+            <br>
+            <h4 class="text-dark text-center">The Problems</h4>
+            <div class="accordion" id="accordionPanelsStayOpenExample">
+                <div class="accordion-item">
+                    <h2 class="accordion-header" id="panelsStayOpen-headingOne">
+                        <button class="accordion-button" type="button" data-bs-toggle="collapse"
+                            data-bs-target="#panelsStayOpen-collapseOne" aria-expanded="true"
+                            aria-controls="panelsStayOpen-collapseOne">
+                            Usability
+                        </button>
+                    </h2>
+                    <div id="panelsStayOpen-collapseOne" class="accordion-collapse collapse show"
+                        aria-labelledby="panelsStayOpen-headingOne">
+                        <div class="accordion-body">
+                            <div class="row featurette">
+                                <div class="col-md-7">
+                                    <ul class="lead">
+                                        <li>The site does not stretch to fit the size of the window</li>
+                                        <ul>
+                                            <li>Visit the webpage and go full-screen on a desktop or tablet to see this
+                                                effect; there is large amount of void space</li>
+                                        </ul>
+                                        <li>The site does not support different sized screens</li>
+                                        <ul>
+                                            <li>On mobile, text is so small that it is almost unreadable; requiring the
+                                                user to manually zoom in </li>
+                                        </ul>
+                                        <li>The sidebar and titlecard/header are not fixed in anyway</li>
+                                        <ul>
+                                            <li>For an example, click on the "Science" tab and scroll down</li>
+                                        </ul>
+                                    </ul>
+                                    <!-- <p class="lead">
+                                        - The site does not stretch to fit the size of the window <br>
+                                        - The site does not support different sized screens <br>
+                                        - On mobile text is so small that it is almost unreadable <br>
+                                        - The sidebar and titlecard/header are not fixed in anyway, move when scrolling
+                                        <br>
+                                    </p> -->
+                                </div>
+                                <div class="col-md-5 text-center">
+                                    <img class="featurette-image img-fluid mx-auto" src="Photos/GalileoMobile.png">
+                                    <h6>Site as viewed on a mobile device (375x667)</h6>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="accordion-item">
+                    <h2 class="accordion-header" id="panelsStayOpen-headingTwo">
+                        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                            data-bs-target="#panelsStayOpen-collapseTwo" aria-expanded="false"
+                            aria-controls="panelsStayOpen-collapseTwo">
+                            Memorability and Learnability
+                        </button>
+                    </h2>
+                    <div id="panelsStayOpen-collapseTwo" class="accordion-collapse collapse"
+                        aria-labelledby="panelsStayOpen-headingTwo">
+                        <div class="accordion-body">
+                            <div class="row featurette">
+                                <div class="col-md-7">
+                                    <ul class="lead">
+                                        <li>There are no symbols or icons to differentiate different functions</li>
+                                        <li>Every page consists only of links and text and look identical, making it
+                                            difficult to navigate and remember where things are located</li>
+                                        <li>There is no search bar, the user must go to a separate page to search</li>
+                                    </ul>
+                                </div>
+                                <div class="col-md-5">
+                                    <img class="featurette-image img-fluid mx-auto" src="Photos/GenericSymbols.png">
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="accordion-item">
+                    <h2 class="accordion-header" id="panelsStayOpen-headingThree">
+                        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                            data-bs-target="#panelsStayOpen-collapseThree" aria-expanded="false"
+                            aria-controls="panelsStayOpen-collapseThree">
+                            Acessibility
+                        </button>
+                    </h2>
+                    <div id="panelsStayOpen-collapseThree" class="accordion-collapse collapse"
+                        aria-labelledby="panelsStayOpen-headingThree">
+                        <div class="accordion-body">
+                            <div class="row featurette">
+                                <div class="col-md-7">
+                                    <p class="lead">
+                                        To test the the Acessibility of this site, I used a program called WAVE Web
+                                        Accesibilty Tool. <br>
+                                        <br>
+                                        The main findings concerned issues with low contrast in text and the lack of a
+                                        proper heading. <br>
+                                        <br>
+                                        I do agree with the problems detected by WAVE. The website uses very light blue
+                                        and gray text on a white background, which leads to very low contrast that can
+                                        be very difficult to read at times. Additionaly, the website does have a
+                                        titlecard but lacks a proper functioning heading.
+                                    </p>
+                                </div>
+                                <div class="col-md-5 text-center">
+                                    <img class="featurette-image img-fluid mx-auto" src="Photos/WAVE.png">
+                                    <h6>WAVE Findings for "The Galileo Project"</h6>
+                                    <a type="button" class="btn btn-outline-secondary btn-sm"
+                                        href="https://wave.webaim.org/" role="button">Visit
+                                        WAVE</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <br>
+            <h4 class="text-dark text-center">The Benefits</h4>
+            <p>
+                One of the upsides to the website is that it has a consistent theme and color scheme, which
+                I will try to build upon in my redesign. <br>
+                All the elements on the site (text, links, headings, etc)
+                use a color palate of muted blues and grays as seen below.
+            </p>
+            <img class="ishot text-center" src="Photos/blue-grey-wide.png">
+            <br>
+            <br>
+        </div>
+
+        <div class="album py-5 bg-dark">
+            <div id="prototyping" class="album bg-dark" style="margin-bottom: 7vh;">
+                <h3 class="text-center text-light">Prototyping</h3>
+            </div>
+            <h4 class="text-light text-center">Lo-Fi Wireframes</h4>
+            <div id="carouselExampleIndicators" class="carousel slide" data-bs-ride="false">
+                <!-- <div class="carousel-indicators">
+                    <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0"
+                        class="active" aria-current="true" aria-label="Slide 1"></button>
+                    <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1"
+                        aria-label="Slide 2"></button>
+                    <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2"
+                        aria-label="Slide 3"></button>
+                </div> -->
+                <div class="carousel-inner">
+                    <div class="carousel-item active text-center">
+                        <figure class="figure text-center">
+                            <img src="Photos/Desktop.png" class="figure-img img-fluid rounded" width="800px"
+                                height="400px">
+                        </figure>
+                        <figcaption class="figure-caption">Desktop Lo-Fi Prototype</figcaption>
+                    </div>
+                    <div class="carousel-item text-center">
+                        <figure class="figure text-center">
+                            <img src="Photos/Mobile.png" class="figure-img img-fluid rounded" width="800px"
+                                height="450px">
+                            <figcaption class="figure-caption">Mobile Lo-Fi Prototype</figcaption>
+                        </figure>
+                    </div>
+                    <div class="carousel-item text-center">
+                        <figure class="figure text-center">
+                            <img src="Photos/TabletTriplex.png" class="figure-img img-fluid rounded" width="800px"
+                                height="400px">
+                            <figcaption class="figure-caption">Tablet Lo-Fi Prototype</figcaption>
+                        </figure>
+                    </div>
+                </div>
+                <button class="carousel-control-prev text-light" type="button"
+                    data-bs-target="#carouselExampleIndicators" data-bs-slide="prev">
+                    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                    <span class="visually-hidden">Previous</span>
+                </button>
+                <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators"
+                    data-bs-slide="next">
+                    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                    <span class="visually-hidden">Next</span>
+                </button>
+            </div>
+        </div>
+
+        <div class="album py-5 bg-dark text-center">
+            <h4 class="text-light text-center">Visual Style Guide</h4>
+            <iframe class="lsite embed-responsive-item"
+                src="https://www.figma.com/embed?embed_host=share&url=https%3A%2F%2Fwww.figma.com%2Ffile%2FR9kHFw17dU0stQrS6h14vV%2FVisual-Style-Guide%253A-Responsive-Redesign%3Fnode-id%3D0%253A1"
+                allowfullscreen></iframe>
+            <p class="text-light"> If you unable to view the Visual Style Guide, visit this <a
+                    href="https://www.figma.com/file/R9kHFw17dU0stQrS6h14vV/Visual-Style-Guide%3A-Responsive-Redesign?node-id=0%3A1"
+                    class="link">link</a> here</p>
+        </div>
+
+        <div class="album py-5 bg-dark text-center text-light">
+            <h4 class="text-light text-center">Hi-Fi Prototypes</h4>
+            <iframe class="lsite embed-responsive-item"
+                src="https://www.figma.com/embed?embed_host=share&url=https%3A%2F%2Fwww.figma.com%2Ffile%2FDaA7leGpBTH8BCSKip28vo%2FResponsive-Redesign%3Fnode-id%3D0%253A1"
+                allowfullscreen></iframe>
+            <p class="text-light"> If you unable to view the Hi-Fi Prototypes, visit this <a
+                    href="https://www.figma.com/file/DaA7leGpBTH8BCSKip28vo/Responsive-Redesign?node-id=0%3A1"
+                    class="link">link</a> here</p>
+        </div>
+
+        <div class="album py-5 bg-light text-center">
+            <h3>Redesigned Site</h3>
+            <a type="button" class="btn btn-outline-secondary" href="redesign.html" role="button">Visit
+                the Redesigned Site Here</a>
+        </div>
+
+    </main>
+
+    <footer class="text-muted">
+        <div class="container">
+            <p class="float-right">
+                <a href="#">Back to top</a>
+            </p>
+            <p>Thank you for reading!</p>
+        </div>
+    </footer>
+
+    <!-- Bootstrap core JavaScript
+          ================================================== -->
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js"
+        integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN"
+        crossorigin="anonymous"></script>
+    <script>window.jQuery || document.write('<script src="vendor/jquery-slim.min.js"><\/script>')</script>
+    <script src="vendor/popper.min.js"></script>
+    <script src="dist/js/bootstrap.min.js"></script>
+    <script src="vendor/holder.min.js"></script>
+
+    <script src="js5/bootstrap.bundle.min.js"></script>
+
+    <!-- <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
+        integrity="sha384-q8i/X+9x65DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+        crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.14.7/dist/umd/popper.min.js"
+        integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1"
+        crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.3.1/dist/js/bootstrap.min.js"
+        integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM"
+        crossorigin="anonymous"></script> -->
+
+    <!-- <script>
+        $(window).scroll(function () {
+            $('nav').toggleClass('scrolled', $(this).scrollTop() > 200);
+        });
+    </script> -->
+
+</body>
+
+</html>
